@@ -10,13 +10,7 @@ body {
     font-size: 16px;
     background: rgb(255, 255, 255);
     color: rgb(250, 203, 203);
-}
-
-#featured_coffee {
-
-      
-
-    
+    margin-left: 0 auto;
 }
 
 
@@ -24,13 +18,14 @@ body {
 
 .icon-container{
     text-align: center;
+    margin-left: 0px;
     
 }
 
 
 
 .wrapper {
-    width: 45%;
+    width: 50%;
     display: inline-block;
 }
 
@@ -78,19 +73,22 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
+    grid-column: 1/-1;
 }
 
 .box-color {
-    background-color: rgba(210, 201, 201, 0.525);
+    background-color: rgb(233, 233, 233);
     color: rgb(13, 8, 8);
     text-align: center;
+    grid-column: 1/-1;
 }
 
 /* SVG Coffee Text*/
 .box-color2  {
-    background-color: #a7a7a7;
+    background-color: rgb(189, 205, 189);
     color: #000000;
     text-align: center;
+    grid-column: 1/-1;
 }
 
 
@@ -103,6 +101,7 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     display: grid;
     padding-left: 15px;
     padding-right: 15px;
+    
     grid-template-columns: repeat(12,70px);
     grid-column-gap: 30px;
 }
@@ -143,7 +142,7 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 
 #buy-now {
  width: 255px;
- height: 100px;
+ height: 45px;
  grid-row: 1/2;
  grid-column: 10/-1;
  margin-top: 20px;
@@ -166,27 +165,35 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 
 #features-con {
     margin-top: 50px;
+    grid-column: 1/-1;
 }
 
+/*boxes*/
 .feature {
     width: 370px;
     height: 300px;
     grid-column: span 4;
+    margin-left: -1px;
+    margin-top: 50px;
+
+    
 }
 
 /* 6. ---Footer--- */
 
 #footer-con-full {
     height: 100px;
-    margin-top: 400px;
+    margin-top: 900px;
+    text-align: center;
     
 }
 
 #footer-nav {
     width: 640px;
     height: 70px;
-    margin-top: 15px;
+    margin-top: 25px;
     grid-column: 1/8;
     margin-left: 15px;
+    padding-bottom: 15px;
 }
 
