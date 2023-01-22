@@ -8,7 +8,7 @@
 
 body {
     font-size: 16px;
-    background: rgb(255, 255, 255);
+    background: rgb(190, 190, 190);
     color: rgb(250, 203, 203);
     margin-left: 0 auto;
 }
@@ -22,8 +22,6 @@ body {
     
 }
 
-
-
 .wrapper {
     width: 50%;
     display: inline-block;
@@ -34,37 +32,6 @@ body {
 }
 
 /* make sure to group and name each layer correctly in illistrator. this makes each ID easier to find and target*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-    CSS Guide
-
-    1. General Styles
-    2. Grid
-    3. Header
-    4. Main Hero Image
-    5. Features
-    6. Footer
-
-*/
-
-/* 1. ---General Styles--- */
-
 
 .hidden {
     display: none;
@@ -77,7 +44,7 @@ body {
 }
 
 .box-color {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(108, 134, 118);
     color: rgb(13, 8, 8);
     text-align: center;
     grid-column: 1/-1;
@@ -108,9 +75,6 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 
 /* 3. ---Header--- */
  
-
-
-
 #header-logo {
     height: 100px;
     width: 270px;
@@ -129,8 +93,6 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 #hero {
     margin-top: 70px;
 }
-
-
 
 /* 4. ---Main Hero Image--- */
 #hero-image {
@@ -157,9 +119,6 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     align-self: end;
 }
 
-
-
-
 /* 5. ---Features--- */
 /*space between products and SVG Coffee Text*/
 
@@ -171,19 +130,17 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 /*boxes*/
 .feature {
     width: 370px;
-    height: 300px;
+    height: 370px;
     grid-column: span 4;
-    margin-left: -1px;
+    margin-left: 300px;
     margin-top: 50px;
-
-    
 }
 
 /* 6. ---Footer--- */
 
 #footer-con-full {
     height: 100px;
-    margin-top: 900px;
+    margin-top: 300px;
     text-align: center;
     
 }
